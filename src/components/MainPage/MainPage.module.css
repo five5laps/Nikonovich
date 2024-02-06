@@ -1,0 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Koulen&family=Open+Sans:wght@600&family=Roboto+Serif:opsz@8..144&family=Roboto:wght@300&family=Ubuntu:wght@300&display=swap");
+
+.mainPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
