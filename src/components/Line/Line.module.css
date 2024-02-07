@@ -1,0 +1,16 @@
+.pageProject_description_line {
+  display: flex;
+  flex-direction: row;
+  margin-top: 24px;
+  height: fit-content;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 135%;
+  justify-content: space-between;
+  border-bottom: 1px solid #938d7b;
+}
+
+.pageProject_description_line_second {
+  max-width: 600px;
+}

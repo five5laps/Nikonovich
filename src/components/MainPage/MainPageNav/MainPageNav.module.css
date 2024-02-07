@@ -33,3 +33,60 @@
 .mainPage__nav_items_item {
   margin-left: 76px;
 }
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown a {
+  text-decoration: none;
+}
+
+.dropdown_arrow {
+  content: "";
+  position: absolute;
+  top: 20px;
+  left: 130px;
+  border: 10px solid transparent;
+  border-top-color: #000;
+}
+
+.dropdown_menu {
+  position: absolute;
+  left: 0;
+  top: 100%;
+  /* width: 120px; */
+  list-style: none;
+  margin: 0;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  display: none;
+}
+
+.dropdown_menu::before {
+  content: "";
+  position: absolute;
+  top: -35px;
+  left: 130px;
+  border: 10px solid transparent;
+  border-bottom-color: #000;
+}
+
+.dropdown:hover .dropdown_arrow {
+  display: none;
+}
+
+.dropdown:hover .dropdown_menu {
+  display: block;
+}
+
+.dropdown_menu li {
+  padding-left: 8px;
+  padding-right: 8px;
+  border-bottom: 1px solid black;
+}
+
+.dropdown_menu li:hover {
+  box-shadow: 0 8px 18px 0 rgba(0, 0, 0, 0.25),
+    0 32px 32px 0 rgba(0, 0, 0, 0.21), 0 73px 44px 0 rgba(0, 0, 0, 0.13);
+}

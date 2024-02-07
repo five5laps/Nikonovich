@@ -1,0 +1,20 @@
+.pageProject {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1440px;
+  height: 520px;
+  margin-top: 100px;
+}
+
+.pageProject_title {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 52px;
+  color: var(--#000000);
+}
+
+.pageProject_description {
+  margin-top: 60px;
+}
