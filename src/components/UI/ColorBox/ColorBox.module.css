@@ -1,0 +1,28 @@
+.colorBox {
+  padding: 22px 40px;
+  width: 284px;
+  height: 250px;
+}
+
+.colorBox_top {
+  border-left: 1px solid #938d7b;
+  border-right: 1px solid #938d7b;
+  border-top: 1px solid #938d7b;
+  width: 284px;
+  height: 150px;
+}
+
+.colorBox_bottom {
+  border: 1px solid #938d7b;
+  width: 284px;
+  height: 100px;
+}
+
+.colorBox_bottom_text {
+  font-family: var(--second-family);
+  padding: 22px 40px;
+  font-weight: 400;
+  font-size: 24px;
+  text-align: center;
+  white-space: nowrap;
+}

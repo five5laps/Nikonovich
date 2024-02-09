@@ -1,0 +1,31 @@
+.project_description {
+  margin-top: 100px;
+  width: 1100px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 135%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.project_description span {
+  font-size: 40px;
+}
+
+.project_description_enemy_top {
+  margin-top: 100px;
+  margin-bottom: 40px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  color: var(--#000000);
+  font-size: 52px;
+}
+
+.project_description_enemy_text {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 135%;
+  color: var(--#000000);
+}

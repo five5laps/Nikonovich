@@ -1,0 +1,70 @@
+.design {
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1096px;
+}
+
+.design_top {
+  height: 230px;
+}
+
+.design_top_title {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 52px;
+}
+
+.design_top_text {
+  padding-top: 40px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 135%;
+}
+
+.design_visual_solutions {
+  margin-top: 40px;
+  border-radius: 40px;
+  padding: 60px 0px;
+  width: 1096px;
+  height: 1807px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.88), 0 9px 9px 0 rgba(0, 0, 0, 0.77),
+    0 20px 12px 0 rgba(0, 0, 0, 0.45), 0 35px 14px 0 rgba(0, 0, 0, 0.13),
+    0 55px 15px 0 rgba(0, 0, 0, 0.02);
+  background: #fff;
+}
+
+.design_visual_solutions_top {
+  padding: 0px 36px;
+  width: 750px;
+  height: 130px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 40px;
+}
+
+.design_visual_solutions_squares {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.design_visual_solutions_fonts {
+  margin-top: 100px;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 135%;
+  font-family: var(--font-family);
+  padding: 0px 36px;
+}
+
+.design_visual_solutions_fonts_content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 1024px;
+}
+
+.design_visual_solutions_fonts_content_right {
+  padding-right: 382px;
+}

@@ -1,0 +1,21 @@
+.results {
+  margin-left: auto;
+  margin-right: auto;
+  background: #748ee8;
+  margin-top: 100px;
+}
+.results_content {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1096px;
+  height: 1974px;
+  padding-top: 60px;
+}
+
+.results_content_top {
+  display: flex;
+  flex-direction: column;
+  font-family: var(--font-family);
+  font-weight: 400;
+  color: var(--#000000);
+}
