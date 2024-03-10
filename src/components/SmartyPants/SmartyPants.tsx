@@ -4,61 +4,62 @@ import PageTop from "../Page/PageTop/PageTop";
 import styles from "./SmartyPants.module.css";
 
 import smarty from "../../assets/notebooks/MacBook Pro.png";
-import PageProject from "./PageProject/PageProject";
-import ProjectDescription from "./ProjectDescription/ProjectDescription";
+import PageProject from "../Page/PageProject/PageProject";
+import ProjectDescription from "../Page/ProjectDescription/ProjectDescription";
 import PageResults from "./PageResults/PageResults";
-import ColorBox from "../UI/ColorBox/ColorBox";
-import SmartyPantsColorBoxes from "./SmartyPantsColorBoxes/SmartyPantsColorBoxes";
+import SmartyPantsVisualSolutions from "./SmartyPantsVisualSolutions/SmartyPantsVisualSolutions";
+import SmartyPantsSlider from "./SmartyPantsSlider/SmartyPantsSlider";
+import SmartyPantsProjectDescription from "./SmartyPantsProjectDescription/SmartyPantsProjectDescription";
+import SmartyPantsProjectDescriptionEnemy from "./SmartyPantsProjectDescriptionEnemy/SmartyPantsProjectDescriptionEnemy";
+import SmartyPantsCards from "./SmartyPantsCards/SmartyPantsCards";
+import PageDesign from "../Page/PageDesign/PageDesign";
 
 const SmartyPants = () => {
   return (
     <div className={styles.smartypants}>
       <MainPageNav />
-      <PageTop image={smarty} imageHeight={"550px"} imageMarginTop={"30px"} />
-      <PageProject />
-      <ProjectDescription />
-      <PageResults />
-      <div className={styles.design}>
-        <div className={styles.design_top}>
-          <div className={styles.design_top_title}>Дизайн</div>
-          <div className={styles.design_top_text}>
-            Визуальное оформление разрабатывалось путем создания мудборда,
-            прототипирования, разработки элементов UI kit и, наконец, создания
-            первого варианта лендинга.
-          </div>
-        </div>
-        <div className={styles.design_visual_solutions}>
-          <div className={styles.design_visual_solutions_top}>
-            <div>Конкретные визуальные решения</div>
-            <div
-              style={{
-                fontSize: "32px",
-                lineHeight: "135%",
-                paddingTop: "40px",
-              }}>
-              Цветовая палитра
-            </div>
-          </div>
-          <div className={styles.design_visual_solutions_squares}>
-            <SmartyPantsColorBoxes />
-          </div>
-          <div className={styles.design_visual_solutions_fonts}>
-            Шрифты и тестовые стили
-            <div className={styles.design_visual_solutions_fonts_content}>
-              <div
-                className={styles.design_visual_solutions_fonts_content_left}>
-                a
-              </div>
-              <div
-                className={styles.design_visual_solutions_fonts_content_right}>
-                <div>a</div>
-                <div>a</div>
-                <div>a</div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      <PageTop
+        background="#748ee8"
+        image={smarty}
+        imageHeight={"550px"}
+        imageMarginTop={"30px"}
+      />
+      <PageProject
+        line1={{
+          paddingRight: "717px",
+          who: "Заказчик",
+          text: "Учебный проект",
+        }}
+        line2={{
+          paddingRight: "385px",
+          who: "Область",
+          text: "Дополнительное детское образование",
+        }}
+        line3={{
+          paddingRight: "385px",
+          who: "Моя роль",
+          text: "Полный дизайн лендинга от исследования до концепции и визуализации",
+        }}
+        line4={{
+          paddingRight: "840px",
+          who: "Время реализации",
+          text: "2 недели",
+        }}
+        title="SmartyPants"
+      />
+      <ProjectDescription
+        isLink={false}
+        description={<SmartyPantsProjectDescription />}
+        enemy={<SmartyPantsProjectDescriptionEnemy />}
+      />
+      <PageResults cards={<SmartyPantsCards />} background="#748ee8" />
+      <PageDesign
+        solutions={<SmartyPantsVisualSolutions />}
+        text="Визуальное оформление разрабатывалось путем создания мудборда,
+          прототипирования, разработки элементов UI kit и, наконец, создания
+          первого варианта лендинга."
+      />
+      <SmartyPantsSlider />
       <Footer />
     </div>
   );

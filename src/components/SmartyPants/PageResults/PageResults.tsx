@@ -1,9 +1,13 @@
-import SmartyPantsCards from "../SmartyPantsCards/SmartyPantsCards";
 import styles from "./PageResults.module.css";
 
-const PageResults = () => {
+interface IPageResults {
+  cards: React.ReactNode;
+  background: string;
+}
+
+const PageResults = (props: IPageResults) => {
   return (
-    <div className={styles.results}>
+    <div className={styles.results} style={{ background: props.background }}>
       <div className={styles.results_content}>
         <div className={styles.results_content_top}>
           <div style={{ fontSize: "52px" }}>Результаты анализа</div>
@@ -11,9 +15,7 @@ const PageResults = () => {
             Необходимые разделы
           </div>
         </div>
-        <div className={styles.results_content_cards}>
-          <SmartyPantsCards />
-        </div>
+        <div className={styles.results_content_cards}>{props.cards}</div>
       </div>
     </div>
   );

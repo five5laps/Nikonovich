@@ -1,0 +1,22 @@
+.project_description {
+  margin-top: 100px;
+  width: 1100px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 135%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.project_description span {
+  font-size: 40px;
+}
+
+.project_description_link {
+  font-family: var(--second-family);
+  font-style: italic;
+  font-weight: 100;
+  font-size: 20px;
+  color: var(--000000);
+}

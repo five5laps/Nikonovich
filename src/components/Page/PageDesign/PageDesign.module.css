@@ -1,0 +1,24 @@
+.design {
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1096px;
+}
+
+.design_top {
+  height: 230px;
+}
+
+.design_top_title {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 52px;
+}
+
+.design_top_text {
+  padding-top: 40px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 135%;
+}

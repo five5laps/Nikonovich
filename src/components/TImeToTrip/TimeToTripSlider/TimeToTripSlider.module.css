@@ -1,0 +1,17 @@
+.timetotrip_slider {
+  margin-top: 100px;
+  background: var(--e87492);
+  padding: 60px 66px;
+}
+
+.timetotrip_slider_wrapper {
+  width: 1297px;
+  height: 560px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.timetotrip_slider_item {
+  display: flex;
+  justify-content: center;
+}

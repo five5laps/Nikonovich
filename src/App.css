@@ -6,6 +6,14 @@
 }
 
 :root {
+  --swiper-theme-color: black !important;
+  --e8c974: #e8c974;
+  --74e884: #74e884;
+  --748ee8: #748ee8;
+  --e87492: #e87492;
+  --938d7b: #938d7b;
+  --ffffff: #fff;
+  --000000: #000;
   --font-family: "Roboto Serif", sans-serif;
   --second-family: "Roboto", sans-serif;
   --third-family: "Alegreya SC", sans-serif;

@@ -2,7 +2,7 @@ import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import MainPage from "../MainPage/MainPage";
 import SmartyPants from "../SmartyPants/SmartyPants";
 import RetroStyle from "../RetroStyle/RetroStyle";
-import TImeToTrip from "../TImeToTrip/TImeToTrip";
+import TimeToTrip from "../TimeToTrip/TimeToTrip";
 import SkillSwap from "../SkillSwap/SkillSwap";
 
 const AppRouter = () => {
@@ -21,7 +21,7 @@ const AppRouter = () => {
     },
     {
       path: "/timetotrip",
-      Component: TImeToTrip,
+      Component: TimeToTrip,
     },
     {
       path: "/skillswap",

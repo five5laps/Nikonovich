@@ -21,7 +21,7 @@ const MainPageExamples = () => {
           ButtonBackground={
             "linear-gradient(270deg, #fde1ec 0%, #e8c974 68.75%)"
           }
-          link={"#"}
+          link={"/smartypants"}
         />
         <Example
           ImageHeight={"550px"}
@@ -33,7 +33,7 @@ const MainPageExamples = () => {
           ButtonBackground={
             "linear-gradient(270deg, #f0e36c 0%, #e87492 78.12%)"
           }
-          link={"#"}
+          link={"/retrostyle"}
         />
         <Example
           ImageHeight={"420px"}
@@ -45,7 +45,7 @@ const MainPageExamples = () => {
           ButtonBackground={
             "linear-gradient(270deg, #fcfde1 0%, #74e884 50%, #367877 100%)"
           }
-          link={"#"}
+          link={"/timetotrip"}
         />
         <Example
           ImageHeight={"444px"}
@@ -57,7 +57,7 @@ const MainPageExamples = () => {
           ButtonBackground={
             "linear-gradient(270deg, #748ee8 46.88%, #5f3678 100%)"
           }
-          link={"#"}
+          link={"/skillswap"}
         />
       </div>
     </div>
