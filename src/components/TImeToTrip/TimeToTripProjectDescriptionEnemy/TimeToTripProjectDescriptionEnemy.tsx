@@ -1,6 +1,6 @@
 const TimeToTripProjectDescriptionEnemy = () => {
   return (
-    <>
+    <div>
       <div style={{ marginTop: "100px", marginBottom: "40px" }}>
         <span>Анализ конкурентов</span>
       </div>
@@ -11,7 +11,7 @@ const TimeToTripProjectDescriptionEnemy = () => {
         представителей отрасли, был разработан макет лендинга для туристического
         клуба «Пора в поход».
       </div>
-    </>
+    </div>
   );
 };
 

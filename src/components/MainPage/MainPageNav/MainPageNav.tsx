@@ -4,7 +4,9 @@ import styles from "./MainPageNav.module.css";
 const MainPageNav = () => {
   return (
     <div className={styles.mainPage__nav}>
-      <div className={styles.mainPage__nav_logo}>NIKONOVICH</div>
+      <div className={styles.mainPage__nav_logo}>
+        <Link to="/">NIKONOVICH</Link>
+      </div>
       <div className={styles.mainPage__nav_items}>
         <Link to="/" className={styles.mainPage__nav_items_item}>
           Главная
