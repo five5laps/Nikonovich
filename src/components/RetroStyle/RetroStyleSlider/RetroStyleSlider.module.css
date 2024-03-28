@@ -1,0 +1,17 @@
+.retrostyle_slider {
+  margin-top: 100px;
+  background: var(--74e884);
+  padding: 60px 66px;
+}
+
+.retrostyle_slider_wrapper {
+  width: 1297px;
+  height: 560px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.retrostyle_slider_item {
+  display: flex;
+  justify-content: center;
+}

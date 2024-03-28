@@ -1,0 +1,37 @@
+.skillswap_prototype {
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1096px;
+  font-family: var(--font-family);
+}
+
+.skillswap_prototype_title {
+  font-weight: 400;
+  font-size: 52px;
+}
+
+.skillswap_prototype_description {
+  margin-top: 40px;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 135%;
+}
+
+.skillswap_prototype_diagram {
+  margin-top: 60px;
+}
+
+.skillswap_prototype_phones {
+  margin-top: 60px;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 135%;
+}
+
+.skillswap_prototype_phones_block {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}

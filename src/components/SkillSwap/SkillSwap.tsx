@@ -9,6 +9,8 @@ import SkillSwapProjectDescription from "./SkillSwapProjectDescription/SkillSwap
 import SkillSwapDescriptionEnemy from "./SkillSwapDescriptionEnemy/SkillSwapDescriptionEnemy";
 import PageResults from "../SmartyPants/PageResults/PageResults";
 import SkillSwapCards from "./SkillSwapCards/SkillSwapCards";
+import SkillSwapDialogCard from "./SkillSwapDialogCard/SkillSwapDialogCard";
+import SkillSwapPrototype from "./SkillSwapPrototype/SkillSwapPrototype";
 
 const SkillSwap = () => {
   return (
@@ -49,34 +51,8 @@ const SkillSwap = () => {
         enemy={<SkillSwapDescriptionEnemy />}
       />
       <PageResults cards={<SkillSwapCards />} background="#e8c974" />
-      <div className={styles.interview}>
-        <div className={styles.interview_top}>
-          <div className={styles.interview_top_title}>Глубинное интервью</div>
-          <div className={styles.interview_top_text}>
-            Следующим этапом командной работы стало глубинное интервью. В ходе
-            данного исследования я принимала активное участие в работе команды,
-            предлагая свои варианты вопросов для гайда интервью, с ним можно
-            ознакомиться далее. Затем самостоятельно провела интервью у двух
-            респондентов и проанализировала их, сделала ключевые выводы, которые
-            позже помогли команде выявить основные пожелания потенциальных
-            пользователей.
-          </div>
-        </div>
-        <div className={styles.interview_card}>
-          <div className={styles.interview_card_content}>
-            <div className={styles.interview_card_content_start}>
-              Начало интервью
-            </div>
-            <div className={styles.interview_card_content_dialog}>
-              <div className={styles.interview_card_content_hello}>
-                — Привет, <p>[имя респондента]</p>! Меня зовут <p>[ваше имя]</p>
-                . Можем перейти на «ты»?
-              </div>
-              <div>Давай сразу расскажу, как все будет происходить: </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      <SkillSwapDialogCard />
+      <SkillSwapPrototype />
       <Footer />
     </div>
   );

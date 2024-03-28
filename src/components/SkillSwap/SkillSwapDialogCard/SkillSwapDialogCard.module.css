@@ -1,0 +1,68 @@
+.interview {
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1096px;
+  font-family: var(--font-family);
+}
+
+.interview_top_title {
+  font-weight: 400;
+  font-size: 52px;
+}
+
+.interview_top_text {
+  padding-top: 40px;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 135%;
+}
+
+.interview_card {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.88), 0 9px 9px 0 rgba(0, 0, 0, 0.77),
+    0 20px 12px 0 rgba(0, 0, 0, 0.45), 0 35px 14px 0 rgba(0, 0, 0, 0.13),
+    0 55px 15px 0 rgba(0, 0, 0, 0.02);
+  background: var(--ffffff);
+  border-radius: 40px;
+  width: 871px;
+  height: fit-content;
+}
+
+.interview_card_content {
+  padding: 60px 116px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  font-family: var(--font3);
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 120%;
+}
+
+.interview_card_content p {
+  color: #978a8a;
+}
+
+.interview_card_content_dialog {
+  display: flex;
+  flex-direction: column;
+}
+
+.interview_card_content_dialog div {
+  margin-top: 18px;
+}
+
+.interview_card_content_title {
+  font-weight: 500;
+  font-size: 20px;
+  color: #313131;
+}
+
+.interview_card_content_hello {
+  display: flex;
+  margin-top: 8px;
+}
